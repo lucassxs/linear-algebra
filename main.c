@@ -25,7 +25,7 @@ main()
     B = read_2("matrix1.dat", 3, 4);
     show_2(B, 3, 4);
     
-    printf("\nCompute the Gauss Jordan Method\n\n ");
+    printf("\nCompute the a Gauss Jordan Method\n\n ");
 
     sol2 = gaussJordan(B,3);
     solution_GaussJ(sol2, 3);
